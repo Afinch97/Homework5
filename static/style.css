@@ -1,11 +1,11 @@
 body {
-    background-color: #f3e5f5;
+    background-color: #cccaca;
     font-family: 'Courier New', monospace;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 15px 10px;
 }
@@ -13,3 +13,9 @@ body {
 .item {
     padding: 4px;
 }
+
+img{
+    display: flex;
+    align-items: center;
+}
+
