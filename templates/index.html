@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href={{ url_for( 'static', filename='style.css' ) }} />
+</head>
+<body>
+    <h1>Testing</h1>
+    <div class='container'>
+        {% for i in range(10) %}
+        <div class='item'>
+            <p><b>({{i+1}}) {{titles[i] }}</b></p>
+            <img src="{{posters[i]}}">
+            <p>{{ overviews[i] }}</p>
+
+        </div>
+        {%endfor%}
+    </div>
+</body>
+</html>
